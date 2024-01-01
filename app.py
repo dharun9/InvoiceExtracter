@@ -8,8 +8,8 @@ from PIL import Image
 import google.generativeai as genai 
 
 # Configure generative AI with the API key
-os.environ['GOOGLE_API_KEY']='AIzaSyCCda9IZfuXVSDyrYhRbJs7FkPNgFXZqvE'
-genai.configure(api_key="AIzaSyCCda9IZfuXVSDyrYhRbJs7FkPNgFXZqvE")
+os.environ['GOOGLE_API_KEY']=''
+genai.configure(api_key="")
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 
